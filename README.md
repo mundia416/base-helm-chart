@@ -10,9 +10,10 @@ image:
   repository: nginx
   tag: ""
 
+port: 4000
+
 service:
   type: NodePort
-  port: 4000
 
 url: example.com
 
