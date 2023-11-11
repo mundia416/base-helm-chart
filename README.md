@@ -3,7 +3,7 @@ A helm chart to get up and running quickly with a deployment on kubernetes
 
 
 ## Values
-
+```
 replicaCount: 1
 
 image:
@@ -17,5 +17,6 @@ service:
 url: example.com
 
 env:
-  #- name: EXAMPLE_ENV
-  #value: EXAMPLE_VALUE
+  - name: EXAMPLE_ENV
+  value: EXAMPLE_VALUE
+```
