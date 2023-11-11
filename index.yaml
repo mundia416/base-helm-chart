@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  base:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-11-11T05:19:49.129053+02:00"
+    description: A Helm chart for Kubernetes
+    digest: 8b335034006cbf3545c11b841e3a0593325911c493af2ed1c00ff5f7dcf7888f
+    name: base
+    type: application
+    urls:
+    - helm.popsicleai.com/base-0.1.0.tgz
+    version: 0.1.0
+generated: "2023-11-11T05:19:49.127776+02:00"
