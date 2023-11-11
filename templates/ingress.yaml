@@ -6,13 +6,13 @@ metadata:
   name: {{ $fullName }}
   labels:
     {{- include "base.labels" . | nindent 4 }}
-  {{- with .Values.ingress.annotations }}
+  # {{- with .Values.ingress.annotations }}
   annotations:
     kubernetes.io/ingress.class: nginx
     nginx.ingress.kubernetes.io/rewrite-target: /
     cert-manager.io/issuer: "letsencrypt-prod"
-    {{- toYaml . | nindent 4 }}
-  {{- end }}
+    # {{- toYaml . | nindent 4 }}
+  # {{- end }}
 spec:
   tls:
     - hosts:
