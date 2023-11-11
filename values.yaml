@@ -1,0 +1,17 @@
+replicaCount: 1
+
+image:
+  repository: nginx
+  tag: ""
+
+
+
+service:
+  type: NodePort
+  port: 4000
+
+url: example.com
+
+env:
+  # - name: EXAMPLE_ENV
+  #   value: EXAMPLE_VALUE
