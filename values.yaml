@@ -2,7 +2,7 @@ replicaCount: 1
 
 image:
   repository: nginx
-  tag: ""
+  tag: latest
 
 port: 4000
 
