@@ -33,7 +33,7 @@ spec:
           env:
             {{- toYaml .Values.env | nindent 12 }}
           {{- if .Values.command }}
-          command: {{ .Values.command }}
+          command: {{ .Values.command  | toJson }}
           {{- end }}
       {{- with .Values.nodeSelector }}
       nodeSelector:
