@@ -11,6 +11,8 @@ service:
 
 url: example.com
 
+# command : ["/bin/sh"]
+
 env:
   # - name: EXAMPLE_ENV
   #   value: EXAMPLE_VALUE
